@@ -1,0 +1,164 @@
+/* .container {
+  margin: 0 auto;
+  max-width: 1180px;
+}
+
+.color{
+background:  #F0F0F0;
+
+}
+
+.hero{
+ display: flex;
+ 
+ align-items: center;
+ height: calc(100vh - 70px);
+gap:5rem
+}
+ 
+#heroh1{
+    font-size: 70px;
+    font: 800;
+    line-height: 70px;
+    margin-top: -5rem;
+    margin-bottom: 1rem;
+
+}
+
+#heropara{
+    font-size: 25px;
+    font-weight: 500;
+    
+    color: #2e2e2e;
+text-transform:initial;
+}
+
+#imghero{
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 25px;
+    background-size: cover;  
+    background-repeat: no-repeat;  
+    background-attachment: fixed;  
+    width: 500px;
+    height: 400px;
+    
+} */
+.container {
+  margin: 0 auto;
+  max-width: 1180px;
+}
+
+.color {
+  background: #F0F0F0;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: calc(100vh - 70px);
+  gap: 5rem;
+  padding: 0 20px;
+}
+
+.hero_content {
+  flex: 1;
+}
+
+.img_content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+#heroh1 {
+  font-size: 70px;
+  font-weight: 800;
+  line-height: 70px;
+  margin-top: -5rem;
+  margin-bottom: 1rem;
+  color: #111;
+}
+
+#heropara {
+  font-size: 25px;
+  font-weight: 500;
+  color: #2e2e2e;
+  text-transform: initial;
+}
+
+#imghero {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 25px;
+  width: 500px;
+  height: 400px;
+  object-fit: cover;
+}
+
+/* ----------------- RESPONSIVE ----------------- */
+
+/* Tablet screens */
+@media (max-width: 1024px) {
+  .hero {
+    gap: 3rem;
+    height: auto;
+    padding: 60px 20px;
+  }
+
+  #heroh1 {
+    font-size: 50px;
+    line-height: 55px;
+    margin-top: 0;
+  }
+
+  #heropara {
+    font-size: 20px;
+  }
+
+  #imghero {
+    width: 400px;
+    height: 320px;
+  }
+}
+
+/* Mobile screens */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    padding: 40px 20px;
+    height: auto;
+  }
+
+  #heroh1 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  #heropara {
+    font-size: 18px;
+  }
+
+  #imghero {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+  }
+}
+
+/* Small mobile screens */
+@media (max-width: 480px) {
+  #heroh1 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  #heropara {
+    font-size: 16px;
+  }
+
+  #imghero {
+    max-width: 280px;
+  }
+}
