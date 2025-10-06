@@ -10,8 +10,8 @@ const Home = () => {
     <div className={Css.color}> 
  <main className={ `${Css.container} ${Css.hero}`} >
     <div className={Css.hero_content}>
-        <h1 id={Css.heroh1} >DEVINE ENTERPRISES</h1>
-        <p id= {Css.heropara}>Welcome To The Fancy World Of Bags <span>#DEALS</span> In Kind Of Bags</p>
+        <h1 id={Css.heroh1} >DIVINE ENTERPRISES</h1>
+        <p id= {Css.heropara}>Welcome To The Fancy World Of Bags  <span>#DEALS</span> In Kind Of Bags</p>
     </div>
    
    <div className={Css.img_content}>
